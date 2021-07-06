@@ -1,0 +1,92 @@
+.mainTitle h1{
+    color: green;
+}
+.mainTitle {
+	margin: 20px 0px 20px 0px;
+}
+.mainInput {
+	margin: 20px 10px 20px 10px;
+}
+ #infoBox {
+     
+     border: black 1px solid;
+     text-align: center;
+     width: 300px;
+     height:50px;
+     background-color: lightsalmon;
+ }
+ .movie-details{
+     padding:0;
+     margin:0;
+     text-align: center;
+     width: 300px;
+     height: 400px;
+     border: solid black 1px;
+ }
+ #movieTitle h3{
+     margin:0px;
+     padding:10px;
+     height:30px;
+     background:lightgray;
+ }
+
+ #movieGenre {
+    margin:10px;
+    padding:10px;
+ }
+ #movieGenre h4{
+    font-weight:bold ;
+ }
+ #movieYear {
+    margin:10px;
+    padding:10px;
+ }
+ #movieRatings{
+     border: 1px dotted blue;
+     margin:10px;
+     padding:10px;
+     height:160px;
+ }
+ /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.footer {
+  position: sticky;
+  bottom: 0;
+  color:white;
+  background-color: #333;
+  text-align: center;
+  font-size:10px;
+}
+.wrapper {
+	min-height:100%;
+	display:grid;
+	grid-template-rows:auto 1fr auto;
+}
+.page-body{
+	margin:20px 0px 0px 0px;
+}
+.testInfo {
+	width:300px;
+	height:60px;
+	background-color: lightgray;
+	font-weight:bold;
+	border: red 1px solid;
+}
